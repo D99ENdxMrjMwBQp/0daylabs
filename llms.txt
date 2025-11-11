@@ -1,0 +1,48 @@
+# llms.txt — AI & LLM Access Policy for 0daylabs.ai
+# Owner: 0Day Research Labs Ltd.
+# Updated: 2025-11-11
+# Location: GB
+
+# === GLOBAL DENY ===
+# All AI crawlers, scrapers, and training systems are blocked.
+User-agent: *
+Disallow: /
+
+# === EXPLICIT BLOCKS FOR KNOWN AI CRAWLERS ===
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# === HUMAN READABLE SUMMARY ===
+# This site contains original security research, code, and creative content.
+# No part of this site may be used to train, fine-tune, or improve any AI model.
+# All rights reserved. Contact: contact@0daylabs.ai
