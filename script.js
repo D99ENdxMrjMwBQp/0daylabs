@@ -36,7 +36,7 @@ const snippets = [
 const loremIpsum = `
 0-Day Research Labs is dedicated to discovering novel high-quality 0-day exploits and advanced vulnerabilities in computer systems.
 
-We are leading the way in augmenting discovery with the use of frontier AI research in order to deliver the world’s most innovative service at the cutting edge of vulnerability research. 
+We are leading the way in augmenting discovery with the use of frontier AI techniques in order to deliver the world’s most innovative service at the cutting edge of vulnerability research. 
 
 
 For further information or general enquiries, please contact us.
@@ -368,7 +368,7 @@ document.getElementById('toggle-btn').textContent = 'Layer: Default';
 document.getElementById('toggle-btn').addEventListener('click', () => {
   isProfessional = !isProfessional;
   const btn = document.getElementById('toggle-btn');
-  btn.textContent = `Layer: ${isProfessional ? 'Default' : 'Lain'}`;
+  btn.textContent = `Layer: ${isProfessional ? 'Default' : 'Wired'}`;
 
   if (isProfessional) applyProfessional();
   else applyEnhanced();
